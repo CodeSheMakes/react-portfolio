@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarItem from '../NavbarItem/NavbarItem'
-import styles from './Navbar.Styles.css';
+import styles from './Navbar.module.css';
 
 const Navbar = ({config}) => {
     return ( 
@@ -12,4 +12,4 @@ const Navbar = ({config}) => {
         );
 }
 
-export default Navbar;
+export default Navbar;  

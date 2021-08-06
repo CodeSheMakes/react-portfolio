@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
-import styles from './NavbarItem.Styles.css'
+import { Link } from 'react-router-dom';
+import styles from './NavbarItem.module.css'
 
 const NavbarItem = ({title, url}) => {
     return ( 
-        <Router>
             <Link to={url} className={styles.navbarItem}>{title}</Link>
-        </Router>
         );
 }
 
